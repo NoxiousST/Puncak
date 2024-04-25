@@ -113,30 +113,135 @@ function App() {
 
             {/* Section 2 | Donasi */}
             <section className={"w-full"}>
-                <div className={"flex w-full h-screen bg-[radial-gradient(circle_at_right,_#262933,_#0F1014)]"}>
+                <div className={"flex w-full h-[120vh] bg-[radial-gradient(circle_at_right,_#262933,_#0F1014)]"}>
                     <div className={"flex w-1/2"}>
-                        <div className={"my-auto mx-auto"}>
-                            <div>
-                                <label htmlFor="price" className="block text-sm font-medium leading-6 text-gray-900">
-                                    Price
-                                </label>
-                                <div className="relative rounded-md shadow-sm">
-                                    <div
-                                        className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                                        <span className="text-gray-400 sm:text-sm">Rp. </span>
-                                    </div>
-                                    <input
-                                        type="text"
-                                        name="price"
-                                        className="bg-[#262933] block w-full rounded-md outline-none border-0 py-2 pl-10 pr-20 text-white ring-1 ring-inset ring-gray-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                                        placeholder="0.00"
-                                    />
-                                </div>
+                        <div className={"my-auto mx-24 text-white font-montserrat"}>
+                            <div className={"flex flex-col font-display"}>
+                                <p className="block uppercase tracking-wide text-gray-400 text-sm font-bold mb-6">Donasi</p>
+                                <h1 className={"text-4xl"}>Bersama mengangkat harapan<span
+                                    className={"text-indigo-500"}>.</span></h1>
+                                <p className={"text-sm text-gray-400 py-1"}>Kebaikan Anda <span className={"text-indigo-500 font-semibold tracking-wide uppercase"}>sangat berarti</span> untuk mereka semua.</p>
                             </div>
+                            <form className={"mt-12 w-[30rem]"}>
+                                <div className="flex flex-wrap -mx-3 mb-6 font-montserrat">
+                                    <div className="w-1/2 px-3">
+                                        <label
+                                            className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2">
+                                            Nama Depan
+                                        </label>
+                                        <input
+                                            type="text"
+                                            name="fname"
+                                            className="bg-[#262933] font-medium block w-full rounded-xl outline-none border-0 py-3 px-4 text-white ring-1 ring-inset ring-gray-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                            placeholder="John"
+                                        />
+                                    </div>
+                                    <div className="w-1/2 px-3">
+                                        <label
+                                            className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2">
+                                            Nama Belakang
+                                        </label>
+                                        <input
+                                            type="text"
+                                            name="lname"
+                                            className="bg-[#262933] font-medium block w-full rounded-xl outline-none border-0 py-3 px-4 text-white ring-1 ring-inset ring-gray-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                            placeholder="Doe"
+                                        />
+                                    </div>
+                                </div>
+                                <div className={"flex flex-wrap -mx-3 font-montserrat"}>
+                                    <div className="w-full px-3">
+                                        <label
+                                            className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2">
+                                            Email
+                                        </label>
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            className="bg-[#262933] font-medium block w-full rounded-xl outline-none border-0 py-3 px-4 text-white ring-1 ring-inset ring-gray-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                            placeholder="johndoe@gmail.com"
+                                        />
+                                    </div>
+                                </div>
+                                <div className={"flex flex-col flex-wrap -mx-3 mb-6 font-montserrat"}>
+                                    <div className={"border-t-2 border-gray-700 w-5/6 mx-auto my-6"}></div>
+                                    <label
+                                        className="block uppercase tracking-wide text-gray-600 text-xs font-bold px-3 mb-2">
+                                        Jumlah
+                                    </label>
+                                    <div
+                                        className="flex flex-wrap justify-center gap-2 mb-6"
+                                        role="group">
+                                        <button type="button"
+                                                className="px-5 py-3 text-sm font-semibold text-white bg-[#262933] rounded-xl focus:bg-indigo-600 focus:text-white hover:ring-2 hover:ring-indigo-600 ">
+                                            Rp. 5.000
+                                        </button>
+                                        <button type="button"
+                                                className="px-5 py-3 text-sm font-semibold text-white bg-[#262933] rounded-xl focus:bg-indigo-600 focus:text-white hover:ring-2 hover:ring-indigo-600 ">
+                                            Rp. 10.000
+                                        </button>
+                                        <button type="button"
+                                                className="px-5 py-3 text-sm font-semibold text-white bg-[#262933] rounded-xl focus:bg-indigo-600 focus:text-white hover:ring-2 hover:ring-indigo-600 ">
+                                            Rp. 20.000
+                                        </button>
+                                        <button type="button"
+                                                className="px-5 py-3 text-sm font-semibold text-white bg-[#262933] rounded-xl focus:bg-indigo-600 focus:text-white hover:ring-2 hover:ring-indigo-600 ">
+                                            Rp. 50.000
+                                        </button>
+                                        <button type="button"
+                                                className="px-5 py-3 text-sm font-semibold text-white bg-[#262933] rounded-xl focus:bg-indigo-600 focus:text-white hover:ring-2 hover:ring-indigo-600 ">
+                                            Rp. 100.000
+                                        </button>
+                                        <button type="button"
+                                                className="px-5 py-3 text-sm font-semibold text-white bg-[#262933] rounded-xl focus:bg-indigo-600 focus:text-white hover:ring-2 hover:ring-indigo-600 ">
+                                            Rp. 150.000
+                                        </button>
+                                        <button type="button"
+                                                className="px-5 py-3 text-sm font-semibold text-white bg-[#262933] rounded-xl focus:bg-indigo-600 focus:text-white hover:ring-2 hover:ring-indigo-600 ">
+                                            Rp. 200.000
+                                        </button>
+                                    </div>
+
+                                    <div className="w-full px-3">
+                                        <label
+                                            className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2">
+                                            Nominal
+                                        </label>
+                                        <div className="relative rounded-md shadow-sm mb-6">
+                                            <div
+                                                className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                                                <span className="font-medium text-gray-400 sm:text-sm">Rp. </span>
+                                            </div>
+                                            <input
+                                                type="text"
+                                                name="price"
+                                                className="bg-[#262933] tracking-wider font-medium block w-full rounded-xl outline-none border-0 py-3 pl-10 pr-4 text-white ring-1 ring-inset ring-gray-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                                placeholder="0.00"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className={"flex justify-end px-3"}>
+                                        <button type="button"
+                                                className="group flex px-5 py-3 text-sm font-semibold text-white bg-[#262933] border-2 border-indigo-600 rounded-full hover:bg-indigo-600 hover:text-white shadow-lg hover:shadow-indigo-600/50 transition-all">
+                                            Lanjutkan
+                                            <svg className={"group-hover:ml-4 ml-2 transition-all"}
+                                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                 width="24"
+                                                 height="24">
+                                                <path stroke="#fff" strokeLinecap="round" strokeLinejoin="round"
+                                                      strokeWidth="1.5"
+                                                      d="M19.75 11.726h-15M13.7 5.7l6.05 6.024-6.05 6.025"
+                                                      className="colorStroke200E32 svgStroke"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </form>
                         </div>
                     </div>
                     <div className={"flex items-center w-1/2"}>
-                        <img src={donate} alt={"back"} className={"mx-auto h-[32rem]"}/>
+                        <img src={donate} alt={"back"} className={"mx-auto h-[36rem]"}/>
                     </div>
                 </div>
             </section>
