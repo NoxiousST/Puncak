@@ -15,7 +15,9 @@ module.exports = {
             'logo': ['Big Shoulders Text', 'sans-serif'],
             'display': ['Cera Pro', 'Trebuchet MS', 'sans-serif'],
             'cera': ['Cera Pro', 'sans-serif'],
-            'montserrat': ["Montserrat", 'sans-serif']
+            'montserrat': ["Montserrat", 'sans-serif'],
+            'brush': ["Water Brush", 'cursive'],
+            'ruthie': ["Ruthie", 'cursive']
         }
     },
     plugins: [],
