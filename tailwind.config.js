@@ -7,13 +7,14 @@ module.exports = {
         extend: {
             backgroundImage: {
                 'main': "url('/src/assets/img/bg-masthead.jpg')",
+                'erupt': "url('/src/assets/img/erupt.jpeg')",
+                'aids': "url('/src/assets/img/aids.jpg')"
             }
         },
         fontFamily: {
-            'sh': ['Varela Round', 'sans-serif'],
             'logo': ['Big Shoulders Text', 'sans-serif'],
             'display': ['Cera Pro', 'Trebuchet MS', 'sans-serif'],
-            'alata': ["Alata", 'sans-serif'],
+            'cera': ['Cera Pro', 'sans-serif'],
             'montserrat': ["Montserrat", 'sans-serif']
         }
     },

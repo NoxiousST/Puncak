@@ -247,8 +247,11 @@ function App() {
                     </div>
                 </div>
             </section>
+
+            {/* Section 3 | Features */}
             <section>
-                <div className={"flex flex-col items-center justify-center h-screen text-white bg-[#0F1014]"}>
+                <div
+                    className={"flex flex-col items-center justify-center h-screen text-white bg-[radial-gradient(circle_at_top,_#1b1d25,_#0F1014)]"}>
                     <div className={"mx-auto text-center"}>
                         <h1 className={"font-display text-5xl  space-y-3 leading-tight"}>Real people, real
                             solutions, <br/><span className={"text-cyan-400 capitalize"}>real change</span>.</h1>
@@ -260,17 +263,22 @@ function App() {
                             className={"w-96 h-fit bg-gradient-to-br from-white via-indigo-400 rounded-xl p-0.5 to-transparent"}>
                             <div
                                 className={"flex flex-col bg-[#0F1014]  rounded-xl p-6"}>
-                                <svg className={"mb-12"} xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24"
-                                     viewBox="0 0 24 24" width="56" height="56">
-                                    <path d="M12,3c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S17,3,12,3z"
-                                          className="colorf1b01b svgShape fill-indigo-400"></path>
-                                    <path
-                                        d="M21,12.1c-0.1,5-4.2,8.9-9.1,8.9c-2.4,0-4.6-1-6.2-2.6L18.4,5.6C20,7.3,21,9.6,21,12.1z"
-                                        opacity=".1" fill="#000000" className="color000 svgShape"></path>
-                                    <path fill="#ffffff" d="M10.5,16c-0.3,0-0.6-0.1-0.8-0.4l-1.5-2c-0.3-0.4-0.2-1.1,0.2-1.4c0.4-0.3,1.1-0.2,1.4,0.2l0.7,0.9l3.7-4.9
+
+                                <div className={"flex justify-between"}>
+                                    <svg className={"mb-12"} xmlns="http://www.w3.org/2000/svg"
+                                         enableBackground="new 0 0 24 24"
+                                         viewBox="0 0 24 24" width="56" height="56">
+                                        <path d="M12,3c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S17,3,12,3z"
+                                              className="colorf1b01b svgShape fill-indigo-400"></path>
+                                        <path
+                                            d="M21,12.1c-0.1,5-4.2,8.9-9.1,8.9c-2.4,0-4.6-1-6.2-2.6L18.4,5.6C20,7.3,21,9.6,21,12.1z"
+                                            opacity=".1" fill="#000000" className="color000 svgShape"></path>
+                                        <path fill="#ffffff" d="M10.5,16c-0.3,0-0.6-0.1-0.8-0.4l-1.5-2c-0.3-0.4-0.2-1.1,0.2-1.4c0.4-0.3,1.1-0.2,1.4,0.2l0.7,0.9l3.7-4.9
 			c0.3-0.4,1-0.5,1.4-0.2c0.4,0.3,0.5,1,0.2,1.4l-4.5,6C11.1,15.9,10.8,16,10.5,16z"
-                                          className="colorfff svgShape"></path>
-                                </svg>
+                                              className="colorfff svgShape"></path>
+                                    </svg>
+                                    <p className={"font-montserrat font-bold text-5xl text-slate-800"}>01</p>
+                                </div>
                                 <h1 className={"text-4xl font-display mb-4"}>Bantuan Darurat</h1>
                                 <p className={"text-gray-400 font-montserrat "}>Sumbangan dapat membantu menyediakan
                                     makanan, air,
@@ -282,17 +290,22 @@ function App() {
                             className={"w-96 h-fit bg-gradient-to-br from-white via-sky-400 rounded-xl p-0.5 to-transparent"}>
                             <div
                                 className={"flex flex-col bg-[#0F1014]  rounded-xl p-6"}>
-                                <svg className={"mb-12"} xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24"
-                                     viewBox="0 0 24 24" width="56" height="56">
-                                    <path d="M20.8,20.7C20.6,20.9,20.3,21,20,21s-0.5-0.1-0.7-0.3l-4.4-4.4l-0.6-0.6c-0.4-0.4-0.4-1,0-1.4
-			c0.4-0.4,1-0.4,1.4,0l5,5C21.2,19.7,21.2,20.3,20.8,20.7z" className="color584ae5 svgShape fill-sky-600"></path>
-                                    <path d="M18,10c0,1.8-0.6,3.5-1.7,4.9c-0.4,0.5-0.9,1-1.4,1.4C13.6,17.4,11.8,18,10,18c-1.2,0-2.3-0.3-3.3-0.7
+                                <div className={"flex justify-between"}>
+                                    <svg className={"mb-12"} xmlns="http://www.w3.org/2000/svg"
+                                         enableBackground="new 0 0 24 24"
+                                         viewBox="0 0 24 24" width="56" height="56">
+                                        <path d="M20.8,20.7C20.6,20.9,20.3,21,20,21s-0.5-0.1-0.7-0.3l-4.4-4.4l-0.6-0.6c-0.4-0.4-0.4-1,0-1.4
+			c0.4-0.4,1-0.4,1.4,0l5,5C21.2,19.7,21.2,20.3,20.8,20.7z"
+                                              className="color584ae5 svgShape fill-sky-600"></path>
+                                        <path d="M18,10c0,1.8-0.6,3.5-1.7,4.9c-0.4,0.5-0.9,1-1.4,1.4C13.6,17.4,11.8,18,10,18c-1.2,0-2.3-0.3-3.3-0.7
 		C3.9,16,2,13.2,2,10c0-4.4,3.6-8,8-8c3.2,0,6,1.9,7.3,4.7C17.8,7.7,18,8.8,18,10z"
-                                          className="color886cff svgShape fill-sky-400"></path>
-                                    <path d="M20.8,20.7C20.6,20.9,20.3,21,20,21s-0.5-0.1-0.7-0.3l-4.4-4.4C13.6,17.4,11.8,18,10,18
+                                              className="color886cff svgShape fill-sky-400"></path>
+                                        <path d="M20.8,20.7C20.6,20.9,20.3,21,20,21s-0.5-0.1-0.7-0.3l-4.4-4.4C13.6,17.4,11.8,18,10,18
 		c-1.2,0-2.3-0.3-3.3-0.7L17.3,6.7c0.5,1,0.7,2.1,0.7,3.3c0,1.8-0.6,3.5-1.7,4.9l4.4,4.4C21.2,19.7,21.2,20.3,20.8,20.7z"
-                                          opacity=".1" fill="#000000" className="color000 svgShape"></path>
-                                </svg>
+                                              opacity=".1" fill="#000000" className="color000 svgShape"></path>
+                                    </svg>
+                                    <p className={"font-montserrat font-bold text-5xl text-slate-800"}>02</p>
+                                </div>
                                 <h1 className={"text-4xl font-display mb-4"}>Operasi Evakuasi</h1>
                                 <p className={"text-gray-400 font-montserrat "}>Donasi dapat mendukung upaya evakuasi
                                     dengan menyediakan transportasi, operasi pencarian dan penyelamatan, dan pusat
@@ -303,16 +316,20 @@ function App() {
                             className={"w-96 h-fit bg-gradient-to-br from-white via-teal-400 rounded-xl p-0.5 to-transparent"}>
                             <div
                                 className={"flex flex-col bg-[#0F1014]  rounded-xl p-6"}>
-                                <svg className={"mb-12"} xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24"
-                                     viewBox="0 0 24 24" width="56" height="56">
-                                    <path
-                                          d="M21,12c0,5-4,9-9,9c-2.5,0-4.7-1-6.4-2.6S3,14.5,3,12c0-5,4-9,9-9c2.5,0,4.7,1,6.4,2.6C20,7.3,21,9.5,21,12z"
-                                          className="color2bc98e svgShape fill-teal-400"></path>
-                                    <path fill="#ffffff" d="M16.2,11H13V7.8c0-0.6-0.4-1-1-1s-1,0.4-1,1V11H7.8c-0.6,0-1,0.4-1,1s0.4,1,1,1H11v3.2c0,0.6,0.4,1,1,1
+                                <div className={"flex justify-between"}>
+                                    <svg className={"mb-12"} xmlns="http://www.w3.org/2000/svg"
+                                         enableBackground="new 0 0 24 24"
+                                         viewBox="0 0 24 24" width="56" height="56">
+                                        <path
+                                            d="M21,12c0,5-4,9-9,9c-2.5,0-4.7-1-6.4-2.6S3,14.5,3,12c0-5,4-9,9-9c2.5,0,4.7,1,6.4,2.6C20,7.3,21,9.5,21,12z"
+                                            className="color2bc98e svgShape fill-teal-400"></path>
+                                        <path fill="#ffffff" d="M16.2,11H13V7.8c0-0.6-0.4-1-1-1s-1,0.4-1,1V11H7.8c-0.6,0-1,0.4-1,1s0.4,1,1,1H11v3.2c0,0.6,0.4,1,1,1
 		s1-0.4,1-1V13h3.2c0.6,0,1-0.4,1-1S16.8,11,16.2,11z" className="colorfff svgShape"></path>
-                                    <path d="M21,12c0,5-4,9-9,9c-2.5,0-4.7-1-6.4-2.6L18.4,5.6C20,7.3,21,9.5,21,12z"
-                                          opacity=".1" fill="#000000" className="color000 svgShape"></path>
-                                </svg>
+                                        <path d="M21,12c0,5-4,9-9,9c-2.5,0-4.7-1-6.4-2.6L18.4,5.6C20,7.3,21,9.5,21,12z"
+                                              opacity=".1" fill="#000000" className="color000 svgShape"></path>
+                                    </svg>
+                                    <p className={"font-montserrat font-bold text-5xl text-slate-800"}>03</p>
+                                </div>
                                 <h1 className={"text-4xl font-display mb-4"}>Bantuan Medis</h1>
                                 <p className={"text-gray-400 font-montserrat "}> Sumbangan dapat berupa persediaan
                                     medis, peralatan, dan personel untuk merawat
@@ -322,9 +339,101 @@ function App() {
                     </div>
                 </div>
             </section>
+
+            {/* Section 4 | News */}
+            <section className={"h-[110vh] text-white"}>
+                <div className={"h-full bg-erupt bg-cover bg-left bg-no-repeat"}>
+                    <div
+                        className={"h-full bg-[radial-gradient(circle_80rem_at_left,_#00000066,_#000000aa,_#0F1014f5,_#0F1014)]"}>
+                        <div className={"flex h-full w-full"}>
+                            <div className={"w-1/2 h-fit px-20 py-28"}>
+                                <p className="block uppercase tracking-wide text-gray-300 text-sm font-bold mb-6">Berita</p>
+                                <h1 className={"font-cera font-bold text-3xl pr-16"}>
+                                    Berita dan Informasi Gunung berapi Terkini dan Terbaru.
+                                </h1>
+                            </div>
+                            <div className={"items-center flex h-full w-1/2 "}>
+                            <div
+                                    className={"py-4 px-2 h-fit flex flex-col gap-2 bg-[#1b1d25]/75 backdrop-blur-lg backdrop-contrast-75 rounded-2xl"}>
+                                    <div className={"flex gap-2 w-[40rem] h-48 p-2 rounded-md"}>
+                                        <img className={"rounded-md"}
+                                             src={"https://akcdn.detik.net.id/community/media/visual/2022/12/05/deretan-gunung-berapi-di-indonesia-yang-pernah-meletus-hebat-1_43.jpeg?w=300&q=80"}/>
+                                        <div className={"flex flex-col justify-between px-2 py-1"}>
+                                            <div>
+                                                <div
+                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-display"}>
+                                                    detikNet
+                                                </div>
+                                                <h1 className={"font-display text-xl"}>6 Gunung Berapi di Indonesia
+                                                    Berstatus
+                                                    Siaga, Ini Daftarnya. </h1>
+                                                <p className={"text-gray-300 text-sm"}>Sejumlah gunung berapi di
+                                                    Indonesia
+                                                    dilaporkan mengalami peningkatan aktivitas. Sebanyak enam gunung di
+                                                    antaranya berada di level III atau Siaga.</p>
+                                            </div>
+                                            <p className={"text-gray-400 text-sm text-right"}>Kamis, 18 Apr
+                                                2024 13:30 WIB</p>
+                                        </div>
+                                    </div>
+                                    <div className={"flex gap-2 w-[40rem] h-48 p-2 rounded-md"}>
+                                        <img className={"rounded-md"}
+                                             src={"https://akcdn.detik.net.id/community/media/visual/2024/03/02/gunung-ile-lewotolok-meletus_43.jpeg?w=300&q=80"}/>
+                                        <div className={"flex flex-col justify-between px-2 py-1"}>
+                                            <div>
+                                                <div
+                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-display"}>
+                                                    detikNet
+                                                </div>
+                                                <h1 className={"font-display text-xl"}>Gunung Ile Lewotolok Meletus
+                                                    Lagi,
+                                                    Warga
+                                                    Diminta Bawa Turun Ternak</h1>
+                                                <p className={"text-gray-300 text-sm"}>Gunung Ile Lewotolok di Kabupaten
+                                                    Lembata, Nusa Tenggara Timur (NTT), kembali meletus pukul 12.53 Wita
+                                                    dengan
+                                                    tinggi kolom abu teramati 500 meter</p>
+                                            </div>
+                                            <p className={"text-gray-400 text-sm text-right"}>Kamis, 18 Apr
+                                                2024 13:30 WIB</p>
+                                        </div>
+                                    </div>
+                                    <div className={"flex gap-2 w-[40rem] h-48 p-2 rounded-md"}>
+                                        <img className={"rounded-md max-w-fit"}
+                                             src={"https://akcdn.detik.net.id/community/media/visual/2023/12/12/lava-pijar-gunung-merapi-1_43.jpeg?w=300&q=80"}/>
+                                        <div className={"flex flex-col justify-between px-2 py-1"}>
+                                            <div>
+                                                <div
+                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-display"}>
+                                                    detikNet
+                                                </div>
+                                                <h1 className={"font-display text-xl"}>Lava Pijar dan Magma, Apa
+                                                    Bedanya?</h1>
+                                                <p className={"text-gray-300 text-sm"}>Pada akhir November 2023, gunung
+                                                    Mauna Loa di hawai mengeluarkan lelehan magma yang menarik
+                                                    perhatian,
+                                                    atau yang biasa disebut lava pijar. Apa itu lava pijar?</p>
+                                            </div>
+                                            <p className={"text-gray-400 text-sm text-right"}>Kamis, 18 Apr
+                                                2024 13:30 WIB</p>
+                                        </div>
+                                    </div>
+                                    <div className={"flex w-11/12 place-content-center group hover:bg-gray-100/20 rounded-lg mx-auto"}>
+                                        <svg className={"group-hover:stroke-gray-50 stroke-gray-400"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                             width="36" height="36">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                  strokeWidth="2" d="m19 8.5-7 7-7-7"
+                                                  className="colorStroke200E32 svgStroke"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
-    )
-        ;
+    );
 }
 
 export default App;
