@@ -13,36 +13,36 @@
     @font-face {
         font-family: Cera Pro;
         font-weight: 100;
-        src: url("./assets/font/Cera Pro Thin.otf") format("otf");
+        src: url("./assets/font/Cera Pro Thin.otf");
     }
     @font-face {
         font-family: Cera Pro;
         font-weight: 300;
-        src: url("./assets/font/Cera Pro Light.otf") format("otf");
+        src: url("./assets/font/Cera Pro Light.otf");
     }
     @font-face {
         font-family: Cera Pro;
         font-weight: 400;
-        src: url("./assets/font/Cera Pro Regular.otf") format("otf");
+        src: url("./assets/font/Cera Pro Regular.otf");
     }
     @font-face {
         font-family: Cera Pro;
         font-weight: 500;
-        src: url("./assets/font/Cera Pro Medium.otf") format("otf");
+        src: url("./assets/font/Cera Pro Medium.otf");
     }
     @font-face {
         font-family: Cera Pro;
         font-weight: 700;
-        src: url("./assets/font/Cera Pro Bold.otf") format("otf");
+        src: url("./assets/font/Cera Pro Bold.otf");
     }
     @font-face {
         font-family: Cera Pro;
         font-weight: 900;
-        src: url("./assets/font/Cera Pro Black.otf") format("otf");
+        src: url("./assets/font/Cera Pro Black.otf");
     }
     @font-face {
         font-family: Ruthie;
         font-weight: 400;
-        src: url("./assets/font/Ruthie-Regular.ttf") format("ttf");
+        src: url("./assets/font/Ruthie-Regular.ttf");
     }
 }

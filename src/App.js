@@ -28,22 +28,22 @@ function App() {
                 <div className="md:flex md:items-center w-auto hidden">
                     <div className="flex text-sm gap-12">
                         <a href="#"
-                           className="block lg:inline-block text-gray-300 hover:text-white mr-4 text-lg font-display">
+                           className="block lg:inline-block text-gray-300 hover:text-white mr-4 text-lg font-cera font-medium">
                             About
                         </a>
                         <a href="#"
-                           className="block lg:inline-block text-gray-300 hover:text-white mr-4 text-lg font-display">
+                           className="block lg:inline-block text-gray-300 hover:text-white mr-4 text-lg font-cera font-medium">
                             Projects
                         </a>
                         <a href="#"
-                           className="block  lg:inline-block  text-gray-300 hover:text-white text-lg font-display">
+                           className="block  lg:inline-block  text-gray-300 hover:text-white text-lg font-cera font-medium">
                             Contact
                         </a>
                     </div>
                 </div>
                 <div>
                     <a href={"#"}
-                       className={"text-white font-display text-lg px-5 hover:bg-rose-500 shadow-lg hover:shadow-rose-500/50 transition-colors py-1 border-2 border-rose-500 rounded-3xl"}>Join
+                       className={"text-white font-cera font-medium text-lg px-5 hover:bg-rose-500 shadow-lg hover:shadow-rose-500/50 transition-colors py-1 border-2 border-rose-500 rounded-3xl"}>Join
                         Us</a>
                 </div>
             </nav>
@@ -54,13 +54,13 @@ function App() {
                 <div
                     className={"flex w-screen bg-gradient-to-b from-[#0002] to-[#0F1014] py-48"}>
                     <div className="flex flex-col items-center justify-center text-center mx-auto gap-6">
-                        <h1 className="mx-auto px-64 text-6xl font-display text-white">Solusi Donasi Korban Erupsi<br/>
+                        <h1 className="mx-auto px-64 text-6xl font-cera font-bold text-white">Solusi Donasi Korban Erupsi<br/>
                             <span className={"bg-gradient-to-r from-red-400 to-red-500 text-transparent bg-clip-text"}> Gunung Berapi</span> di
                             Indonesia
                             <span
                                 className={"bg-gradient-to-r from-red-400 to-red-500 text-transparent bg-clip-text"}>.</span>
                         </h1>
-                        <h2 className="text-gray-400 leading-relaxed px-72 text-lg font-display mx-auto mt-2 mb-5">Puncak
+                        <h2 className="text-gray-400 leading-relaxed px-72 text-lg font-cera font-medium mx-auto mt-2 mb-5">Puncak
                             adalah pusat informasi dan
                             donasi yang didedikasikan untuk memberikan bantuan dan upaya mitigasi kepada korban letusan
                             gunung di Indonesia.</h2>
@@ -90,7 +90,7 @@ function App() {
                                                 </svg>
                                             </div>
                                         </div>
-                                        <div className={"w-fit font-display text-2xl font-bold"}>Gunung Merapi</div>
+                                        <div className={"w-fit font-cera font-medium text-2xl font-bold"}>Gunung Merapi</div>
                                         <div className={"w-fit text-gray-400 text-left text-xs"}>25 April 2024
                                         </div>
                                     </div>
@@ -104,10 +104,10 @@ function App() {
                             </div>
                             <div>
                                 <div className={"flex justify-center gap-12"}>
-                                    <a className="group flex bg-transparent border-2  font-display px-5 py-3 rounded-xl border-gray-500 hover:border-gray-200 transition-all uppercase tracking-wider text-white"
+                                    <a className="group flex bg-transparent border-2  font-cera font-bold px-5 py-3 rounded-xl border-gray-500 hover:border-gray-200 transition-all uppercase tracking-wider text-white"
                                        href="#">Get Started
                                     </a>
-                                    <a className="group flex bg-transparent border-2  font-display px-5 py-3 rounded-xl border-sky-500/75 hover:border-sky-500 shadow-lg hover:shadow-sky-500/50 transition-all uppercase tracking-wider text-white"
+                                    <a className="group flex bg-transparent border-2  font-cera font-bold px-5 py-3 rounded-xl border-sky-500/75 hover:border-sky-500 shadow-lg hover:shadow-sky-500/50 transition-all uppercase tracking-wider text-white"
                                        href="#">Donate
                                         <svg className={"group-hover:ml-4 ml-2 transition-all"}
                                              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -125,7 +125,7 @@ function App() {
                                     <img src={aids} alt={"aids"} className={"relative rounded-xl w-96 h-64"}/>
                                     <div
                                         className={"absolute flex flex-col p-2 justify-end top-0 bg-gradient-to-b from-[#0F1014]/20 via-[#0F1014bb] to-[#0F1014]  max-w-[26rem] h-64 rounded-xl"}>
-                                        <h1 className={"font-display text-xl text-start"}>Bersatu Untuk Bantu</h1>
+                                        <h1 className={"font-cera font-medium text-xl text-start"}>Bersatu Untuk Bantu</h1>
                                         <p className={"text-sm text-gray-400 text-start text-wrap flex-wrap line-clamp-2"}>Setiap
                                             sumbangan membawa harapan bagi mereka yang terkena dampak bencana. Bersama,
                                             kita bisa membuat perbedaan yang besar.</p>
@@ -134,7 +134,7 @@ function App() {
                             </div>
                             <div
                                 className={"flex flex-col mt-16 bg-[radial-gradient(circle_at_top_right,_#262933,_#1b1d25)] w-80 h-fit rounded-xl p-4"}>
-                                <h1 className={"text-xl font-display text-gray-400 w-fit"}>Donasi Terkumpul</h1>
+                                <h1 className={"text-xl font-cera  text-gray-400 w-fit"}>Donasi Terkumpul</h1>
                                 <p className={"w-fit text-3xl font-montserrat font-semibold bg-gradient-to-r from-sky-600 to-sky-400 text-transparent bg-clip-text tracking-wide"}>Rp.
                                     17.345.000
                                 </p>
@@ -155,7 +155,7 @@ function App() {
                 <div className={"flex w-full h-[120vh] bg-[radial-gradient(circle_at_right,_#262933,_#0F1014)]"}>
                     <div className={"flex w-1/2"}>
                         <div className={"my-auto mx-24 text-white font-montserrat"}>
-                            <div className={"flex flex-col font-display"}>
+                            <div className={"flex flex-col font-cera font-bold"}>
                                 <p className="block uppercase tracking-wide text-gray-400 text-sm font-bold mb-6">Donasi</p>
                                 <h1 className={"text-4xl"}>Bersama mengangkat harapan<span
                                     className={"text-indigo-500"}>.</span></h1>
@@ -292,7 +292,7 @@ function App() {
                 <div
                     className={"flex flex-col items-center justify-center h-screen text-white bg-[radial-gradient(circle_at_top,_#1b1d25,_#0F1014)]"}>
                     <div className={"mx-auto text-center"}>
-                        <h1 className={"font-display text-5xl  space-y-3 leading-tight"}>Real people, real
+                        <h1 className={"font-cera font-bold text-5xl  space-y-3 leading-tight"}>Real people, real
                             solutions, <br/><span className={"text-cyan-400 capitalize"}>real change</span>.</h1>
                         <p className={"text-lg mt-6 text-gray-300"}>Semua donasi ditujukan untuk membantu masyarakat
                             yang terkena dampak letusan <br/> gunung berapi dan membantu pemulihan mereka.</p>
@@ -318,7 +318,7 @@ function App() {
                                     </svg>
                                     <p className={"font-montserrat font-bold text-5xl text-slate-800"}>01</p>
                                 </div>
-                                <h1 className={"text-4xl font-display mb-4"}>Bantuan Darurat</h1>
+                                <h1 className={"text-4xl font-cera font-medium mb-4"}>Bantuan Darurat</h1>
                                 <p className={"text-gray-400 font-montserrat "}>Sumbangan dapat membantu menyediakan
                                     makanan, air,
                                     tempat
@@ -345,7 +345,7 @@ function App() {
                                     </svg>
                                     <p className={"font-montserrat font-bold text-5xl text-slate-800"}>02</p>
                                 </div>
-                                <h1 className={"text-4xl font-display mb-4"}>Operasi Evakuasi</h1>
+                                <h1 className={"text-4xl font-cera font-medium mb-4"}>Operasi Evakuasi</h1>
                                 <p className={"text-gray-400 font-montserrat "}>Donasi dapat mendukung upaya evakuasi
                                     dengan menyediakan transportasi, operasi pencarian dan penyelamatan, dan pusat
                                     evakuasi.</p>
@@ -369,7 +369,7 @@ function App() {
                                     </svg>
                                     <p className={"font-montserrat font-bold text-5xl text-slate-800"}>03</p>
                                 </div>
-                                <h1 className={"text-4xl font-display mb-4"}>Bantuan Medis</h1>
+                                <h1 className={"text-4xl font-cera font-medium mb-4"}>Bantuan Medis</h1>
                                 <p className={"text-gray-400 font-montserrat "}> Sumbangan dapat berupa persediaan
                                     medis, peralatan, dan personel untuk merawat
                                     dan memberikan layanan kesehatan kepada masyarakat.</p>
@@ -400,10 +400,10 @@ function App() {
                                         <div className={"flex flex-col justify-between px-2 py-1"}>
                                             <div>
                                                 <div
-                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-display"}>
+                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-cera font-medium"}>
                                                     detikNet
                                                 </div>
-                                                <h1 className={"font-display text-xl"}>6 Gunung Berapi di Indonesia
+                                                <h1 className={"font-cera font-bold text-xl"}>6 Gunung Berapi di Indonesia
                                                     Berstatus
                                                     Siaga, Ini Daftarnya. </h1>
                                                 <p className={"text-gray-300 text-sm"}>Sejumlah gunung berapi di
@@ -421,10 +421,10 @@ function App() {
                                         <div className={"flex flex-col justify-between px-2 py-1"}>
                                             <div>
                                                 <div
-                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-display"}>
+                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-cera font-medium"}>
                                                     detikNet
                                                 </div>
-                                                <h1 className={"font-display text-xl"}>Gunung Ile Lewotolok Meletus
+                                                <h1 className={"font-cera font-bold text-xl"}>Gunung Ile Lewotolok Meletus
                                                     Lagi,
                                                     Warga
                                                     Diminta Bawa Turun Ternak</h1>
@@ -443,10 +443,10 @@ function App() {
                                         <div className={"flex flex-col justify-between px-2 py-1"}>
                                             <div>
                                                 <div
-                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-display"}>
+                                                    className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-cera font-medium"}>
                                                     detikNet
                                                 </div>
-                                                <h1 className={"font-display text-xl"}>Lava Pijar dan Magma, Apa
+                                                <h1 className={"font-cera font-bold text-xl"}>Lava Pijar dan Magma, Apa
                                                     Bedanya?</h1>
                                                 <p className={"text-gray-300 text-sm"}>Pada akhir November 2023, gunung
                                                     Mauna Loa di hawai mengeluarkan lelehan magma yang menarik
