@@ -6,10 +6,10 @@ import mountVector from './assets/img/mount_vector.svg'
 
 function App() {
     return (
-        <>
+        <div className={"overflow-x-hidden"}>
             {/* Navigation */}
             <nav
-                className="z-10 flex fixed w-full items-center justify-between flex-wrap bg-[#0F1014]/75 backdrop-blur-2xl backdrop-contrast-50 px-6 py-4 lg:px-40">
+                className="z-50 flex fixed w-full items-center justify-between flex-wrap bg-[#0F1014]/75 backdrop-blur-2xl backdrop-contrast-50 px-6 py-4 lg:px-40">
                 <div className="flex gap-2 items-center flex-shrink-0 text-white mr-6">
                     <div className={"flex rounded-full bg-slate-100 p-1"}>
                         <img className={"w-6"} src={logon}/>
@@ -49,7 +49,7 @@ function App() {
             </nav>
 
             {/* Section 1 | Hero */}
-            <div
+            <section
                 className="h-full items-center justify-center bg-[radial-gradient(circle_at_top,_#2d303b,_#0F1014)] text-white">
                 <div
                     className={"flex w-screen bg-gradient-to-b from-[#0002] to-[#0F1014] py-48"}>
@@ -66,7 +66,7 @@ function App() {
                             gunung di Indonesia.</h2>
                         <div className={"flex gap-20"}>
                             <div
-                                className={"relative flex flex-col mt-16 bg-[radial-gradient(circle_at_top_left,_#373b46,_#1b1d25)] w-80 h-fit rounded-xl "}>
+                                className={"transition-all relative flex flex-col mt-16 bg-[radial-gradient(circle_at_top_left,_#373b46,_#1b1d25)] w-80 h-fit rounded-xl "}>
                                 <img className={"p-2 absolute bottom-0"} src={mountVector}/>
                                 <div className={"rounded-xl p-4 z-10 bg-gradient-to-r from-[#1b1d2566] to-[#1b1d25]"}>
                                     <div className={"items-start"}>
@@ -95,7 +95,7 @@ function App() {
                                         </div>
                                     </div>
                                     <div
-                                        className={"w-fit ml-auto text-right text-gray-300 drop-shadow-lg bg-[#414550]/15 backdrop-blur-sm shadow-lg  px-2 py-1 rounded-lg"}>
+                                        className={"w-fit ml-auto text-right text-gray-300 drop-shadow-lg bg-[#414550]/15 backdrop-saturate-100 backdrop-blur-sm shadow-lg  px-2 py-1 rounded-lg"}>
                                         <p>Tewas (23)</p>
                                         <p>Terluka (12)</p>
                                         <p>Dievakuasi (40)</p>
@@ -148,7 +148,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* Section 2 | Donasi */}
             <section className={"w-full"}>
@@ -393,20 +393,20 @@ function App() {
                             </div>
                             <div className={"items-center flex h-full w-1/2 "}>
                                 <div
-                                    className={"py-4 px-2 h-fit flex flex-col gap-2 bg-[#1b1d25]/75 backdrop-blur-lg backdrop-contrast-75 rounded-2xl"}>
-                                    <div className={"flex gap-2 w-[40rem] h-48 p-2 rounded-md"}>
-                                        <img className={"rounded-md"}
-                                             src={"https://akcdn.detik.net.id/community/media/visual/2022/12/05/deretan-gunung-berapi-di-indonesia-yang-pernah-meletus-hebat-1_43.jpeg?w=300&q=80"}/>
+                                    className={"py-4 px-4 h-fit flex flex-col gap-2 bg-[#1b1d25]/75 backdrop-blur-lg backdrop-contrast-75 rounded-2xl"}>
+                                    <div className={"flex gap-2 w-[40rem] h-48  rounded-md"}>
+                                        <img width={"auto"} className={" rounded-md"}
+                                             src={"https://akcdn.detik.net.id/community/media/visual/2022/12/05/deretan-gunung-berapi-di-indonesia-yang-pernah-meletus-hebat-1_43.jpeg?w=300&q=80"} alt={"news"}/>
                                         <div className={"flex flex-col justify-between px-2 py-1"}>
                                             <div>
                                                 <div
                                                     className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-cera font-medium"}>
                                                     detikNet
                                                 </div>
-                                                <h1 className={"font-cera font-bold text-xl"}>6 Gunung Berapi di Indonesia
+                                                <h1 className={"font-cera font-bold text-xl line-clamp-2"}>6 Gunung Berapi di Indonesia
                                                     Berstatus
                                                     Siaga, Ini Daftarnya. </h1>
-                                                <p className={"text-gray-300 text-sm"}>Sejumlah gunung berapi di
+                                                <p className={"text-gray-300 text-sm line-clamp-3"}>Sejumlah gunung berapi di
                                                     Indonesia
                                                     dilaporkan mengalami peningkatan aktivitas. Sebanyak enam gunung di
                                                     antaranya berada di level III atau Siaga.</p>
@@ -415,7 +415,7 @@ function App() {
                                                 2024 13:30 WIB</p>
                                         </div>
                                     </div>
-                                    <div className={"flex gap-2 w-[40rem] h-48 p-2 rounded-md"}>
+                                    <div className={"flex gap-2 w-[40rem] h-48 rounded-md"}>
                                         <img className={"rounded-md"}
                                              src={"https://akcdn.detik.net.id/community/media/visual/2024/03/02/gunung-ile-lewotolok-meletus_43.jpeg?w=300&q=80"}/>
                                         <div className={"flex flex-col justify-between px-2 py-1"}>
@@ -424,11 +424,11 @@ function App() {
                                                     className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-cera font-medium"}>
                                                     detikNet
                                                 </div>
-                                                <h1 className={"font-cera font-bold text-xl"}>Gunung Ile Lewotolok Meletus
+                                                <h1 className={"font-cera font-bold text-xl line-clamp-2"}>Gunung Ile Lewotolok Meletus
                                                     Lagi,
                                                     Warga
                                                     Diminta Bawa Turun Ternak</h1>
-                                                <p className={"text-gray-300 text-sm"}>Gunung Ile Lewotolok di Kabupaten
+                                                <p className={"text-gray-300 text-sm line-clamp-3"}>Gunung Ile Lewotolok di Kabupaten
                                                     Lembata, Nusa Tenggara Timur (NTT), kembali meletus pukul 12.53 Wita
                                                     dengan
                                                     tinggi kolom abu teramati 500 meter</p>
@@ -437,7 +437,7 @@ function App() {
                                                 2024 13:30 WIB</p>
                                         </div>
                                     </div>
-                                    <div className={"flex gap-2 w-[40rem] h-48 p-2 rounded-md"}>
+                                    <div className={"flex gap-2 w-[40rem] h-48 rounded-md"}>
                                         <img className={"rounded-md max-w-fit"}
                                              src={"https://akcdn.detik.net.id/community/media/visual/2023/12/12/lava-pijar-gunung-merapi-1_43.jpeg?w=300&q=80"}/>
                                         <div className={"flex flex-col justify-between px-2 py-1"}>
@@ -446,9 +446,9 @@ function App() {
                                                     className={"bg-rose-600 w-fit py-[1px] px-2 rounded-full text-sm font-cera font-medium"}>
                                                     detikNet
                                                 </div>
-                                                <h1 className={"font-cera font-bold text-xl"}>Lava Pijar dan Magma, Apa
+                                                <h1 className={"font-cera font-bold text-xl line-clamp-2"}>Lava Pijar dan Magma, Apa
                                                     Bedanya?</h1>
-                                                <p className={"text-gray-300 text-sm"}>Pada akhir November 2023, gunung
+                                                <p className={"text-gray-300 text-sm line-clamp-3"}>Pada akhir November 2023, gunung
                                                     Mauna Loa di hawai mengeluarkan lelehan magma yang menarik
                                                     perhatian,
                                                     atau yang biasa disebut lava pijar. Apa itu lava pijar?</p>
@@ -457,8 +457,8 @@ function App() {
                                                 2024 13:30 WIB</p>
                                         </div>
                                     </div>
-                                    <div
-                                        className={"flex w-11/12 place-content-center group hover:bg-gray-100/20 rounded-lg mx-auto"}>
+                                    <button
+                                        className={"flex w-full place-content-center group hover:bg-gray-100/20 rounded-lg mx-auto"}>
                                         <svg className={"group-hover:stroke-gray-50 stroke-gray-400"}
                                              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                              width="36" height="36">
@@ -466,7 +466,7 @@ function App() {
                                                   strokeWidth="2" d="m19 8.5-7 7-7-7"
                                                   className="colorStroke200E32 svgStroke"></path>
                                         </svg>
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -576,7 +576,7 @@ function App() {
                     </footer>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
 
