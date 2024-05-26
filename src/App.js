@@ -14,7 +14,7 @@ function App() {
                     <div className={"flex rounded-full bg-slate-100 p-1"}>
                         <img className={"w-6"} src={logon}/>
                     </div>
-                    <span className="font-medium text-3xl font-logo">Puncak</span>
+                    <span className="font-medium text-3xl font-logo">PuncakDonasi</span>
                 </div>
                 <div className="block md:hidden">
                     <button
